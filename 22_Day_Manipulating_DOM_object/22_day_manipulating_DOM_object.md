@@ -151,7 +151,6 @@ After creating an HTML, we may want to remove element or elements and we can use
     </ul>
 
     <script>
-        const ul = document.querySelector('ul')
         const lists = document.querySelectorAll('li')
         for (const list of lists) {
             ul.removeChild(list)
